@@ -1,0 +1,16 @@
+﻿<Window x:Class="DeltaEditor.XML.Windows.ToastMessage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeltaEditor.XML.Windows"
+		Background="Transparent"
+		
+		Topmost="True"
+        mc:Ignorable="d"
+        Title="ItemSelector" Height="50" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Foreground="{x:Null}" SizeToContent="Width" IsHitTestVisible="False" WindowStartupLocation="CenterScreen" MinWidth="150" Focusable="False" IsTabStop="True" IsEnabled="False" ShowInTaskbar="False" Padding="0">
+    <Grid Name="BackPanel" RenderTransformOrigin="0.5,0.5">
+        <Rectangle RadiusX="20" RadiusY="20" Fill="#BF000000" IsHitTestVisible="False"></Rectangle>
+        <Label Name="MessageText" Content="메세지" VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Center" FontFamily="/HoldFold;component/Resources/Font/#KoPubDotum_Pro Medium" FontSize="18" TextOptions.TextHintingMode="Fixed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsHitTestVisible="False" Margin="40,0"></Label>
+    </Grid>
+</Window>

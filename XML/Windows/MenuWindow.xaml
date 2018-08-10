@@ -1,0 +1,17 @@
+﻿<Window x:Class="DeltaEditor.XML.Windows.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeltaEditor.XML.Windows"
+        mc:Ignorable="d"
+        Title="MenuWindow" Width="120" Height="120" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}">
+    <Grid Name="BackPanel" RenderTransformOrigin="0.5,0.5">
+        <Rectangle RadiusX="24" RadiusY="24" Fill="#BF000000"></Rectangle>
+        <Rectangle Name="SingleBtn" RadiusX="24" RadiusY="24" Fill="Transparent"></Rectangle>
+        <Path Name="TopBtn" Data="M120,24.2C120,10.9,109.1,0,95.8,0H24.2C10.9,0,0,10.9,0,24.2V60h120V24.2z" Fill="#00000000"/>
+        <Path Name="BotBtn" Data="M0,0v35.8C0,49.1,10.9,60,24.2,60h71.5c13.4,0,24.2-10.9,24.2-24.2V0H0z" VerticalAlignment="Bottom" Fill="#00000000"/>
+        <Label Name="TopText" Content="항목" VerticalAlignment="Top" Margin="0,18,0,0" Foreground="White" HorizontalAlignment="Center" FontFamily="/HoldFold;component/Resources/Font/#KoPubDotum_Pro Light" FontSize="18" TextOptions.TextHintingMode="Fixed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsHitTestVisible="False"></Label>
+        <Label Name="BotText" Content="항목" VerticalAlignment="Bottom" Margin="0,0,0,18" Foreground="White" HorizontalAlignment="Center" FontFamily="/HoldFold;component/Resources/Font/#KoPubDotum_Pro Light" FontSize="18" TextOptions.TextHintingMode="Fixed" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsHitTestVisible="False"/>
+    </Grid>
+</Window>
